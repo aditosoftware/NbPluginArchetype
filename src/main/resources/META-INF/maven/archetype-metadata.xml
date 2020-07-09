@@ -1,0 +1,32 @@
+<archetype-descriptor
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0
+            https://maven.apache.org/xsd/archetype-descriptor-1.1.0.xsd"
+    xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.1.0"
+    name="NbPlugin">
+  <fileSets>
+    <fileSet filtered="false" packaged="false">
+      <directory>.idea</directory>
+    </fileSet>
+    <fileSet>
+      <directory>src/main/java</directory>
+    </fileSet>
+    <fileSet>
+      <directory>src/main/resources</directory>
+    </fileSet>
+    <fileSet>
+      <directory>src/test/java</directory>
+    </fileSet>
+    <fileSet>
+      <directory>src/test/resources</directory>
+    </fileSet>
+    <fileSet>
+      <directory></directory>
+      <includes>
+        <include>.gitignore</include>
+        <include>.gitattributes</include>
+        <include>installScript.sh</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</archetype-descriptor>
