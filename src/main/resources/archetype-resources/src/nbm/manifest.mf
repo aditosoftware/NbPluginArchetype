@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+OpenIDE-Module-Name:
+OpenIDE-Module-Display-Category:
+OpenIDE-Module-Long-Description:
+OpenIDE-Module-Short-Description:

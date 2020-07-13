@@ -9,16 +9,22 @@
       <directory>.idea</directory>
     </fileSet>
     <fileSet>
-      <directory>src/main/java</directory>
+      <directory>src/main/java/de/adito/nbm</directory>
     </fileSet>
     <fileSet>
       <directory>src/main/resources</directory>
     </fileSet>
     <fileSet>
-      <directory>src/test/java</directory>
+      <directory>src/test/java/de/adito/nbm</directory>
     </fileSet>
     <fileSet>
       <directory>src/test/resources</directory>
+    </fileSet>
+    <fileSet>
+      <directory>src/nbm</directory>
+      <includes>
+        <include>manifest.mf</include>
+      </includes>
     </fileSet>
     <fileSet>
       <directory></directory>
