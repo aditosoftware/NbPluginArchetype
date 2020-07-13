@@ -2,16 +2,16 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>${groupId}</groupId>
-  <artifactId>${artifactId}</artifactId>
-  <version>${version}</version>
-  <packaging>nbm</packaging>
-
   <parent>
     <groupId>de.adito.nbm</groupId>
     <artifactId>NbPluginBuildSectionParent</artifactId>
     <version>1.0</version>
   </parent>
+
+  <groupId>${groupId}</groupId>
+  <artifactId>${artifactId}</artifactId>
+  <version>${version}</version>
+  <packaging>nbm</packaging>
 
   <name>${artifactId}</name>
 
